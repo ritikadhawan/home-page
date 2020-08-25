@@ -1,0 +1,9 @@
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(51, 71, 91);
+}
+@media only screen and (max-width : 720px) {
+    *{
+        font-size: 14px;
+    }
+}
