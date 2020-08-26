@@ -1,0 +1,38 @@
+.info-section {
+    margin-top: 7rem;
+}
+.info-section button {
+    background-color: #ff7a59;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    width: 15rem;
+}
+.info-section p {
+    margin: 2rem 0;
+}
+.info-section .info {
+    width: 40%;
+}
+.info-section .info h2{
+    font-weight: bold;
+}
+.info-image {
+    width: 30%;
+}
+@media only screen and (max-width : 720px) {
+    .info-section {
+        margin-top: 1rem;
+    }
+    .info-section .info {
+        width: 100%;
+    }
+    .info-image {
+        margin-top: 5rem;
+        width: 50%;
+    }
+    .info-section button {
+        width: 50%;
+        max-width: 100%;
+     }
+}
