@@ -1,7 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
-    color: rgb(51, 71, 91);
+    /* color: rgb(51, 71, 91); */
 }
 @media only screen and (max-width : 720px) {
     *{

@@ -1,11 +1,9 @@
 .growth-section {
     background-color: #eeeeee;
     padding: 7rem 2rem;
+    color: rgb(51, 71, 91);
 }
 .inner-section {
     margin: 0 auto;
     max-width: 1080px;
-}
-@media only screen and (max-width : 720px) {
-    
 }

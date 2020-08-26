@@ -1,0 +1,8 @@
+.comm-heading h2{
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+.comm-heading p {
+    font-size: 1.1rem;
+    margin: 0;
+}
