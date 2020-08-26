@@ -16,7 +16,7 @@ export class Home extends Component {
                             “good for the business” should 
                             also mean “good for the customer.”
                         </p>
-                        <button type="button" className="btn btn-light">Get HubSpot Free</button>
+                        <button type="button" className="btn">Get HubSpot Free</button>
                         <small className="mt-4">Get started with FREE tools, and upgrade as you grow.</small>
                     </div>
                 </div>

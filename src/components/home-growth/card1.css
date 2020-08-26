@@ -1,0 +1,26 @@
+.card1 {
+    width: 32%;
+    padding: 2rem;
+    margin: 0 0.5rem 2rem 0.5rem;
+    height: 32rem;
+}
+.card1 h2 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width : 1000px) {
+    .card1 {
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .card1 {
+        height: auto;
+    }
+}
+@media only screen and (max-width : 600px) {
+    .card1 {
+        height: auto;
+        width: 100%;
+    }
+}

@@ -11,25 +11,36 @@
     padding: 1rem;
     position: relative;
     left: 5rem;
-    top: 6rem;
+    top: 10rem;
 }
 .home-text h1 {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 3rem;
     color: rgb(51, 71, 91);
 }
+.home-text p {
+    font-size: 1.2rem;
+}
 .home-text button {
-    width: 15rem;
+    width: 17rem;
     padding: 1rem 3rem;
+    font-size: 1.2rem;
     background-color:  #ff7a59;
     color: white;
 }
-
+.home-text button:hover {
+    color: white;
+    opacity: 0.8;
+}
+.image-section {
+    margin-top: -3rem;
+}
 @media only screen and (max-width : 720px) {
     .home-text {
         left: 50%;
         right: 50%;
         transform: translate(-50%, -50%);
-        top: 16rem;
+        top: 20rem;
         padding: 2rem;
     }
     .image-section {
@@ -43,7 +54,7 @@
 
 @media only screen and (max-width : 420px) {
     .home-text {
-        top: 20rem;
+        top: 23rem;
     }
     .image-section {
         margin-top: 10rem;
