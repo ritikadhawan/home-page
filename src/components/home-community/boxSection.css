@@ -4,17 +4,39 @@
 .box-s {
     width: 50%;
 }
+.box-s:nth-child(-n+2) .box{
+    border-right:1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.box-s:nth-child(2) .box:last-child{
+    border-right: 0;
+}
+
+.box-s:nth-last-child(-n+2) .box{
+    border-right: 1px solid #fff;
+}
+.box-s:nth-child(4) .box:last-child{
+    border-right: 0;
+}
 
 @media only screen and (max-width : 720px) {
-    /* .box {
+    .box {
+
         border-right: 1px solid #fff;
         border-bottom: 1px solid #fff;
     }
     .box:nth-child(2n) {
-        border-right: 0;
-    } */
-    
+        border-right: 0!important;
+    }
+    .box-s:last-child .box{
+        border-bottom: none;
+    }
     .box-s {
         width: 100%;
+    }
+}
+@media only screen and (max-width : 575px) {
+    .box{
+        border: none!important;
     }
 }
