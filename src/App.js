@@ -5,6 +5,7 @@ import Home from './components/display-page/Home';
 import Growth from './components/home-growth/Growth';
 import Community from './components/home-community/Community';
 import About from './components/about-section/About';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Growth/>
       <Community/>
       <About/>
+      <Contact/>
     </div>
   );
 }

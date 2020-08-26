@@ -8,6 +8,10 @@
     color: white;
     width: 15rem;
 }
+.info-section button:hover {
+    color: white;
+    opacity: 0.8;
+ }
 .info-section p {
     margin: 2rem 0;
 }
