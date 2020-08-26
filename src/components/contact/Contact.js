@@ -7,7 +7,7 @@ export class Contact extends Component {
             <div className="contact-section">
                 <div className="inner-section">
                     <div className="upper-contact">
-                        <ul className="contact-list d-flex justify-content-center w-100">
+                        <ul className="contact-list d-flex justify-content-center w-100 flex-wrap">
                             <li>
                                 <i class="fab fa-facebook-f"></i>
                             </li>
@@ -27,7 +27,7 @@ export class Contact extends Component {
                                 <i class="far fa-envelope"></i>
                             </li>
                         </ul>
-                        <ul className="contact-list d-flex justify-content-center w-100">
+                        <ul className="contact-list d-flex justify-content-center w-100 flex-wrap">
                             <li>English</li>
                             <li>English</li>
                             <li>English</li>

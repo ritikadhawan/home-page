@@ -8,7 +8,7 @@
     margin-bottom: 0;
 }
 .contact-list li{
-    margin: 2rem;;
+    margin: 2rem;
 }
 .contact-list li i{
     font-size: 1.5rem;
@@ -18,4 +18,10 @@
 }
 .copyright img{
     width: 10rem;
+}
+
+@media only screen and (max-width : 720px) {
+    .contact-list li{
+        margin: 0.8rem;
+    }
 }

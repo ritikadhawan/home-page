@@ -1,7 +1,11 @@
+.company-text h2 {
+    font-weight: bold;
+}
 .image-container {
     padding: 0.5rem;
 }
 .image-container img{
     padding: 0.5rem;
     width: 8rem;
+    margin: 2rem 1rem;
 }
